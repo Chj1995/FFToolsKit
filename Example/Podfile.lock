@@ -1,0 +1,47 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FFToolsKit (1.0):
+    - AFNetworking (~> 3.1.0)
+    - FMDB (~> 2.7.2)
+    - MBProgressHUD (~> 1.0.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - MBProgressHUD (1.0.0)
+
+DEPENDENCIES:
+  - FFToolsKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - FMDB
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  FFToolsKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FFToolsKit: 84893820487ec6426a3f000eaa332fa462ec27c0
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+
+PODFILE CHECKSUM: 2763aeaf6ba5bb110dbc50f3bc6bd0037483d9f0
+
+COCOAPODS: 1.9.3
